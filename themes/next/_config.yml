@@ -10,25 +10,31 @@ override: false
 # Site Information Settings
 # ---------------------------------------------------------------
 
+# 网站图标设置
 # Put your favicon.ico into `hexo-site/source/` directory.
-favicon: /favicon.ico
+favicon: /images/favicon.ico
 
+# 设置默认的关键字
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "Waixing, Alien, Blog"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss: /atom.xml
 
+
+# 设置底部栏网站的创建日期
 # Specify the date when the site was setup
-since: 2017
+since: 2017.9.12
 
+# 设置底部栏年份和作者之间的图标
 # icon between year and author @Footer
 authoricon: heart
 
+# 设置底部栏的版权是否显示
 # Footer `powered-by` and `theme-info` copyright
-copyright: true
+copyright: false
 
 
 # ---------------------------------------------------------------
@@ -49,7 +55,7 @@ index_with_subtitle: false
 
 
 # ---------------------------------------------------------------
-# Menu Settings
+# Menu Settings---菜单(导航栏设置)  可自定义设置
 # ---------------------------------------------------------------
 
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash from link value (/archives -> archives).
@@ -59,21 +65,22 @@ index_with_subtitle: false
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
   home: / || home
-  #about: /about/ || user
+  #about: /about/ || user   关于
   tags: /tags/ || tags
   categories: /categories/ || th
   archives: /archives/ || archive
-  #schedule: /schedule/ || calendar
-  #sitemap: /sitemap.xml || sitemap
-  #commonweal: /404/ || heartbeat
+  #schedule: /schedule/ || calendar   日程表
+  sitemap: /sitemap.xml || sitemap   站点地图
+  #commonweal: /404.html || heartbeat
 
+# 启用菜单图标
 # Enable/Disable menu icons.
 menu_icons:
   enable: true
 
 
 # ---------------------------------------------------------------
-# Scheme Settings
+# Scheme Settings---布局设置
 # ---------------------------------------------------------------
 
 # Schemes
@@ -84,10 +91,10 @@ scheme: Gemini
 
 
 # ---------------------------------------------------------------
-# Sidebar Settings
+# Sidebar Settings---侧边栏设置
 # ---------------------------------------------------------------
 
-# Social Links.
+# Social Links.---社交链接
 # Usage: `Key: permalink || icon`
 # Key is the link label showing to end users.
 # Value before `||` delimeter is the target permalink.
@@ -96,7 +103,7 @@ social:
   GitHub: https://github.com/ETwaixing || github
   E-Mail: mailto:1929906639@qq.com || envelope
   微博: http://weibo.com/u/5822799668 || weibo
-  Google: https://plus.google.com/yourname || google
+  Google: https://www.google.com || google
   #Twitter: https://twitter.com/yourname || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
   #VK Group: https://vk.com/yourname || vk
@@ -105,6 +112,7 @@ social:
   #Instagram: https://instagram.com/yourname || instagram
   #Skype: skype:yourname?call|chat || skype
 
+# 社交图标开启设置
 social_icons:
   enable: true
   icons_only: false
@@ -120,7 +128,7 @@ social_icons:
   #Title1: http://example.com/
   #Title2: http://example.com/
 
-# Sidebar Avatar
+# Sidebar Avatar---头像图片设置
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
 avatar: /images/lee.jpg
@@ -185,6 +193,7 @@ excerpt_description: true
 
 # Automatically Excerpt. Not recommend.
 # Please use <!-- more --> in the post to control excerpt accurately.
+# 阅读全文设置(建议用<!-- more -->拦截自定义设置)
 auto_excerpt:
   enable: false
   length: 150
@@ -206,12 +215,12 @@ post_wordcount:
   separated_meta: true
 
 # Wechat Subscriber
-#wechat_subscriber:
+#wechat_subscriber:---订阅微信公众号
   #enabled: true
   #qcode: /path/to/your/wechatqcode ex. /uploads/wechat-qcode.jpg
   #description: ex. subscribe to my blog by scanning my public wechat account
 
-# Reward
+# Reward---文章打赏设置
 reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
 wechatpay: /blog/images/wechatpay.jpg
 alipay: /blog/images/alipay.jpg
@@ -243,7 +252,7 @@ custom_logo:
   enabled: false
   image:
 
-# Code Highlight theme
+# Code Highlight theme---代码块显示设置
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
@@ -251,7 +260,7 @@ highlight_theme: night
 
 
 # ---------------------------------------------------------------
-# Font Settings
+# Font Settings---字体设置
 # - Find fonts on Google Fonts (https://www.google.com/fonts)
 # - All fonts set here will have the following styles:
 #     light, light italic, normal, normal italic, bold, bold italic
@@ -350,9 +359,10 @@ valine:
 # You can get your uid from http://www.uyan.cc
 #youyan_uid: your uid
 
+# 评论模块接入livere(来必力)
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-#livere_uid: your uid
+livere_uid: MTAyMC8zMDgyMC83Mzcy
 
 # Baidu Share
 # Available value:
@@ -447,6 +457,7 @@ leancloud_visitors:
   app_id: #<app_id>
   app_key: #<app_key>
 
+# 不蒜子统计
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
@@ -503,15 +514,15 @@ algolia_search:
     hits_empty: "We didn't find any results for the search: ${query}"
     hits_stats: "${hits} results found in ${time} ms"
 
-# Local search
+# Local search---站内搜索
 # Dependencies: https://github.com/flashlab/hexo-generator-search
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
   # show top n results per article, show all results by setting to -1
-  top_n_per_article: 1
+  top_n_per_article: -1
 
 
 # ---------------------------------------------------------------
@@ -575,6 +586,7 @@ motion:
 fancybox: true
 
 # Progress bar in the top during page loading.
+# 页面加载动画显示
 pace: false
 # Themes list:
 #pace-theme-big-counter
@@ -594,6 +606,7 @@ pace: false
 # pace_theme: pace-theme-center-simple
 pace_theme: pace-theme-minimal
 
+# 背景动画显示
 # Canvas-nest
 canvas_nest: false
 
