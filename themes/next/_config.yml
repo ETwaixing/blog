@@ -71,7 +71,7 @@ menu:
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar   日程表
   sitemap: /sitemap.xml || sitemap   站点地图
-  #commonweal: /404.html || heartbeat
+  #commonweal: /404.html || heartbeat  公益404页面
 
 # 启用菜单图标
 # Enable/Disable menu icons.
