@@ -54,6 +54,7 @@ hexo deploy
 [next主题Document](http://theme-next.iissnan.com)
 
 # 版本信息
+next 5.1.2
 hexo 3.3.9
 nodejs 8.4.0
 
