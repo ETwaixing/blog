@@ -1,12 +1,15 @@
 ---
-title: hexo博客命令
+title: Hexo博客命令
 date: 2017-09-12 16:32:44
 tags:
 - hexo
 - 命令
 - blog
-categories: 命令
+categories: hexo
 ---
+hexo是一款基于Node.js的静态博客框架，选择它的原因是因为快速方便而且功能强大，对于完全不会nodejs的我来说，上手也十分简单。以下是搭建博客以及部署到github的基本命令。
+<!-- more -->
+
 # 摘要
 记录博客hexo的命令
 
@@ -47,8 +50,6 @@ hexo clean
 hexo generate
 hexo deploy
 ```
-
-<!-- more -->
 
 # 参考文献
 [next主题Document](http://theme-next.iissnan.com)
