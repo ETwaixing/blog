@@ -5,7 +5,7 @@ tags:
 - hexo
 - 命令
 - blog
-categories: hexo
+categories: Hexo
 ---
 hexo是一款基于Node.js的静态博客框架，选择它的原因是因为快速方便而且功能强大，对于完全不会nodejs的我来说，上手也十分简单。以下是搭建博客以及部署到github的基本命令。
 <!-- more -->
