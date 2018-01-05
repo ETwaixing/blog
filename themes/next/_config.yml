@@ -21,7 +21,7 @@ keywords: "Waixing, Alien, Blog"
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss: /atom.xml
+# rss: /atom.xml
 
 
 # 设置底部栏网站的创建日期

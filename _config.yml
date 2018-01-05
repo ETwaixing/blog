@@ -102,8 +102,8 @@ search:
   limit: 10000
 
 #RSS---订阅设置
-feed:
-  type: atom       #feed 类型 (atom/rss2)
-  path: atom.xml   #rss 路径
-  limit: 20        #在 rss 中最多生成的文章数(0显示所有)
-  hub: 
+# feed:
+#   type: atom       #feed 类型 (atom/rss2)
+#   path: atom.xml   #rss 路径
+#   limit: 20        #在 rss 中最多生成的文章数(0显示所有)
+#   hub: 
