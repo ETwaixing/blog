@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[Mac安装软件列表]]></title>
+    <url>%2F2017%2F10%2F25%2FMac%E5%AE%89%E8%A3%85%E8%BD%AF%E4%BB%B6%E5%88%97%E8%A1%A8%2F</url>
+    <content type="text"><![CDATA[记录mbp自己每个安装软件的详情。]]></content>
+      <categories>
+        <category>文档</category>
+      </categories>
+      <tags>
+        <tag>Mac</tag>
+        <tag>Apple</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Mac目录管理]]></title>
+    <url>%2F2017%2F10%2F10%2FMac%E7%9B%AE%E5%BD%95%E7%AE%A1%E7%90%86%2F</url>
+    <content type="text"><![CDATA[考虑了一个多月，终于在国庆的时候入了一台mbp，下面是记录我用Mac对目录结构的管理。 #摘要MacOS的目录管理，软件的基本管理备注：实时更新 注意事项]]></content>
+      <categories>
+        <category>文档</category>
+      </categories>
+      <tags>
+        <tag>Mac</tag>
+        <tag>Apple</tag>
+        <tag>目录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Windows目录管理]]></title>
+    <url>%2F2017%2F09%2F28%2FWindows%E7%9B%AE%E5%BD%95%E7%AE%A1%E7%90%86%2F</url>
+    <content type="text"><![CDATA[你的电脑是否越用越卡，你的垃圾是否越来越多，你的文件是否各种找不到，每一个程序员应该有自己的一套目录管理方法以及对自己所安装的软件应该了如执掌。 摘要Windows的目录管理，软件基本管理备注：实时更新 注意事项 1.目录尽量用英文单词描述，首字母大写，每个单词的首字母大写（看个人喜好） 避免有些软件对中文目录的不支持，命名格式统一化 2.下载安装软件的时候，做到自己自定义安装。安装完成后需要修改软件设置 因为有些软件的默认安装地址在C盘-系统盘，时间长久会引起系统的卡顿，而且不方便管理。安装完成之后切记要查看软件的设置，对那些下载存放地址、图片存放地址、缓存视频音频地址等等进行相应的设置，这些存放的地址基本也是默认在C盘当中的。 3.尽量设置文件的后缀名查看以及隐藏文件的查看 一是方便修改文件类型，直接改后缀名即可，二是根据隐藏文件以及文件的后缀名能够推测出一些平常了解不到的信息，解决一些bug等 4.待续。。。 目录结构 Download目录 顾名思义，所有下载的文件都存储在这个目录，按照自己的习惯可以对下载目录进行分类，方便自己查看管理 Application目录 下载完成之后，软件的安装目录，如果没有进行磁盘分区的话，可以对这个目录再进行细分，常用软件、工作软件、游戏以及其他等等（看个人喜好） Docment目录 对自己的文档进行一个归类 Developmet目录（可放至Application目录） 这是我单独定义的一个开发软件的目录，直接在盘的根目录里面，方便我的操作 Workspace目录 开发软件的工作空间，我也把他单独放置了一个目录，理由同上 待续。。。 总结该目录结构只是一个参考，只要按照自己定制的存储规则来，做好归类，做到有条不乱。做到自己可以方便的查看，方便的管理（有序的目录结构方便脚本的建立，大大简化不必要的操作）]]></content>
+      <categories>
+        <category>文档</category>
+      </categories>
+      <tags>
+        <tag>目录</tag>
+        <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Markdown学习]]></title>
+    <url>%2F2017%2F09%2F25%2FMarkdown%E5%AD%A6%E4%B9%A0%2F</url>
+    <content type="text"><![CDATA[Markdown 是一种轻量级的「标记语言」，它的优点很多，目前也被越来越多的写作爱好者，撰稿者广泛使用。看到这里请不要被「标记」、「语言」所迷惑，Markdown的语法十分简单。常用的标记符号也不超过十个，这种相对于更为复杂的HTML 标记语言来说，Markdown 可谓是十分轻量的，学习成本也不需要太多，且一旦熟悉这种语法规则，会有一劳永逸的效果。 摘要Markdown基本语法学习，常用标签使用备注：实时更新 Markdown语法简要规则标题标题是每篇文章必备的东西，Markdown的标题定义十分简单，在文本前面加 # 即可。 123# 一级标题## 二级标题### 三级标题 列表列表分为有序列表和无序列表， 有序列表在文本前加 1. 2. 3. 1231. 12. 23. 3 无序列表在文本前加 - 或 * 1234567- 1- 2- 3* 1* 2* 3 引用在文本前加入 &gt; 即可 1&gt; 引用 图片和链接插入图片和插入链接的语法很像，区别就在一个 !图片为：![文本](链接)链接为：[文本](链接) 12![图片](https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2285703242,468077740&amp;fm=27&amp;gp=0.jpg)[google](https://www.google.com) 粗体与斜体用两个 * 包裹一段文本为粗体用一个 * 包裹一段文本的为斜体 12**粗体***斜体* 表格Markdowm的表格定义十分简单，只用 : 来区分文本在表格内的显示位置 123|靠 左|居 中|靠 右||:----|:---:|----:||a | b | c| 代码区块用两个 ` 把代码包裹起来，代码优雅的显示出来 1`代码块` 分割线用 *** 或者 --- 即可分割 123---分割线*** 待续…]]></content>
+      <categories>
+        <category>Markdown</category>
+      </categories>
+      <tags>
+        <tag>命令</tag>
+        <tag>Markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[书籍列表]]></title>
+    <url>%2F2017%2F09%2F19%2F%E4%B9%A6%E7%B1%8D%E5%88%97%E8%A1%A8%2F</url>
+    <content type="text"><![CDATA[书籍是人类进步的阶梯，作为程序员的我们应该要给自己制定一份读书的计划，不断地充实自己。 摘要书籍的记录信息，进度条以及计划表等。备注：实时更新 书籍 书籍名称 分类 备注 Thinking in Java Java 无 Effective Java Java 无 Java代码优化、维护与重构 Java 无 Spring Cloud微服务实战 Spring系列-微服务 无 Javascript权威指南 Javascript 无 linux鸟哥私房菜 Linux 无 网络协议详解 web 无 修改记录 修改人 修改时间 修改内容 备注 waixing 2017-9-19 第一次创建 无 waixing 2017-9-22 添加书籍-网络协议详解 无 计划2017年9月:目标Spring Cloud微服务架构2017年9月-之后:Thinking in Java、Linux鸟哥私房菜以及Java优化 参考文献暂无]]></content>
+      <categories>
+        <category>文档</category>
+      </categories>
+      <tags>
+        <tag>书籍</tag>
+        <tag>记录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hexo博客命令]]></title>
+    <url>%2F2017%2F09%2F12%2FHexo%E5%8D%9A%E5%AE%A2%E5%91%BD%E4%BB%A4%2F</url>
+    <content type="text"><![CDATA[hexo是一款基于Node.js的静态博客框架，选择它的原因是因为快速方便而且功能强大，对于完全不会nodejs的我来说，上手也十分简单。以下是搭建博客以及部署到github的基本命令。 摘要记录博客hexo的命令 安装hexo1$ npm install -g hexo 新建一个hexo项目12hexo inithexo init &lt;projectName&gt; npm模块安装1234npm install hexo-generator-feed --save RSS订阅npm install hexo-generator-sitemap --save 站长地图npm install hexo-generator-searchdb --save 本地站内搜索npm install hexo-deployer-git --save 部署到git 新建12hexo new &lt;contentName&gt; 新建文章(contentName.md)hexo new page &lt;name&gt; 新建目录以及页面(name/index.md) 启动以及部署123456789启动hexo cleanhexo generatehexo server部署hexo cleanhexo generatehexo deploy 参考文献next主题Document 版本信息next 5.1.2hexo 3.3.9nodejs 8.4.0]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>命令</tag>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+</search>
